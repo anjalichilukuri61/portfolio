@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Section from './Section';
-import { X } from 'lucide-react';
+import { X, ExternalLink } from 'lucide-react';
 import { FaGithub as Github } from 'react-icons/fa';
 import { getProjects } from '../services/api';
 
@@ -158,15 +158,25 @@ const Projects = () => {
                       </div>
                     </div>
                     
-                    <div className="pt-4 border-t border-white/10">
+                    <div className="pt-4 border-t border-white/10 flex flex-col gap-3">
                       <a 
                         href={selectedProject.github} 
                         target="_blank" 
                         rel="noreferrer"
-                        className="w-full flex items-center justify-center gap-2 py-3 bg-white text-black font-semibold rounded-xl hover:bg-gray-200 transition-colors"
+                        className="w-full flex items-center justify-center gap-2 py-3 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-colors border border-white/20"
                       >
                         <Github size={20} /> View Source
                       </a>
+                      {selectedProject.liveDemo && (
+                        <a 
+                          href={selectedProject.liveDemo} 
+                          target="_blank" 
+                          rel="noreferrer"
+                          className="w-full flex items-center justify-center gap-2 py-3 bg-cyan-500 text-black font-semibold rounded-xl hover:bg-cyan-400 transition-colors"
+                        >
+                          <ExternalLink size={20} /> Live Demo
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>

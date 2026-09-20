@@ -20,6 +20,7 @@ const projects = [
     techStack: ["React", "Vite", "Tailwind CSS", "React-Leaflet", "Node.js", "Express.js", "MongoDB", "node-cron"],
     features: ["Interactive Map", "RSS Feeds Integration", "JWT Authentication", "Email Alerts"],
     github: "https://github.com/anjalichilukuri61/local-opportunity-intelligence",
+    liveDemo: "https://local-opportunity-intelligence-omn3l3v4i.vercel.app/",
     image: "https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800"
   },
   {
@@ -42,6 +43,7 @@ const projects = [
     techStack: ["React", "React Router DOM", "CSS3"],
     features: ["Product Showcase", "Custom Requests", "Direct Artisan Connection"],
     github: "https://github.com/anjalichilukuri61/Handloom-connect",
+    liveDemo: "https://handloom-connect-orpin.vercel.app/",
     image: "https://images.unsplash.com/photo-1605007559196-1c7477c7bfa3?auto=format&fit=crop&q=80&w=800"
   },
   {
@@ -53,6 +55,7 @@ const projects = [
     techStack: ["React.js", "Python", "FastAPI", "SQLite", "SQLAlchemy"],
     features: ["Digital Record Keeping", "Maintenance Monitoring", "Status Updates"],
     github: "https://github.com/anjalichilukuri61/machine-maintenance-tracker",
+    liveDemo: "https://machine-maintenance-tracker-1.onrender.com/",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800"
   },
   {
@@ -64,6 +67,7 @@ const projects = [
     techStack: ["Node.js", "Express.js", "MongoDB", "EJS", "HTML", "CSS"],
     features: ["Add/View/Update/Delete Students", "Server-side rendering"],
     github: "https://github.com/anjalichilukuri61/student-management-system",
+    liveDemo: "https://student-management-system-1-3y4u.onrender.com/",
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=800"
   }
 ];
